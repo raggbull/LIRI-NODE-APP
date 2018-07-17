@@ -100,7 +100,7 @@ function myTweets() {
     consoleEnd();
     fs.appendFile('log.txt', "Command: " + command.split("-").join(" ") + ", Run on: " + timestamp + "\nCountry of production: " + body.Country + "\nLanguage: " + body.Language + "\nActor(s): " + body.Actors + "\nPlot: " + body.Plot + "\n\n", function (err) {
       if (err) throw err;
-      console.log('Appended to log.txt!');
+      console.log('Appended to Tom Segura!');
     });
   };
 });
